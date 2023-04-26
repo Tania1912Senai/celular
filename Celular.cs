@@ -16,10 +16,11 @@ namespace celular
     //proximo passo devemos declarar os metodos para a classe celular
 //metodo usa um verbo de acao entao; ligar, desligar, fazer ligação, enviar mensagem
 
-ligar
+ligar ou
 desligar
-fazer ligacao
-enviar mensagem
+se ligado pode; fazer ligacao e enviar mensagem
+
+
 
 {
     if Celular ligado
@@ -33,7 +34,7 @@ enviar mensagem
     }
 }
 
-// so executa metodo quando ligado
+// so executa o metodo quando permanece ligado
 
 System.Console.WriteLine($"Informe a marca do Celular");
 marcaCelular.marca = Console.ReadLine();
